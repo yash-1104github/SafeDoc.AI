@@ -4,7 +4,7 @@ export async function uploadImage(file) {
   const form = new FormData();
   form.append("image", file);
 
-  const res = await fetch("/api/mask-pii", {
+  const res = await fetch("https://safedoc-ai.onrender.com/api/mask-pii", {
     method: "POST",
     body: form,
   });
