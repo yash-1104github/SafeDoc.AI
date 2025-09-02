@@ -1,0 +1,13 @@
+fastapi>=0.95.0 
+uvicorn[standard]>=0.22.0  
+easyocr>=1.7.2     
+regex>=2023.8.8  
+Pillow>=9.5.0  
+numpy>=1.24.0   
+python-multipart>=0.0.5  
+pydantic>=1.10.9
+
+# Testing & Dev
+pytest>=7.3.1   
+pytest-cov>=4.0.0  
+httpx>=0.24.0
