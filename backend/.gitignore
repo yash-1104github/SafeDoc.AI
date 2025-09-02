@@ -6,3 +6,12 @@ __pycache__/
 .venv/
 venv/
 .env
+
+.venv/
+__pycache__/
+node_modules/
+*.bin
+*.vec
+*.pth
+*.pt
+*.h5

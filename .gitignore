@@ -18,3 +18,12 @@ build/
 # IDE
 .vscode/
 .idea/
+
+.venv/
+__pycache__/
+node_modules/
+*.bin
+*.vec
+*.pth
+*.pt
+*.h5
